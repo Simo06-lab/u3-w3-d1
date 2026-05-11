@@ -105,10 +105,3 @@ interface Pair<A, B> {
   first: A
   second: B
 }
-
-// 20) Interfaccia generica per una risposta API
-interface ApiResponse<T> {
-  success: boolean
-  data: T
-  error?: string
-}
